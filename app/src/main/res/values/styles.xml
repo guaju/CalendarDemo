@@ -1,0 +1,45 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="MyCalendar" parent="Theme.AppCompat.Light">
+        <item name="android:calendarViewStyle">@style/MyCalendarhaha</item>
+    </style>
+
+    <style name="MyCalendarhaha" parent="android:Widget.CalendarView">
+
+
+    </style>
+
+    <style name="Widget.CalendarView.Custom" parent="android:Widget.CalendarView">
+        <item name="android:focusedMonthDateColor">@color/yellow</item>
+        <item name="android:weekNumberColor">@color/red</item>
+        <item name="android:weekDayTextAppearance">@style/textmedium</item>
+        <item name="android:dateTextAppearance">@style/CalenderViewDateCustomText</item>
+    </style>
+
+    <style name="CalenderViewCustom" parent="Theme.AppCompat">
+        <item name="colorAccent">@color/red</item>
+    </style>
+
+    <style name="CalenderViewDateCustomText" parent="android:TextAppearance.DeviceDefault.Small">
+        <item name="android:textColor">@color/red</item>
+    </style>
+
+    <style name="CalenderViewWeekCustomText" parent="android:TextAppearance.DeviceDefault.Small">
+        <item name="android:textColor">@color/red</item>
+    </style>
+    <style name="textmedium" parent="android:style/TextAppearance.Medium">
+        <item name="colorAccent">@color/red</item>
+        <item name="android:textColor">@color/red</item>
+    </style>
+
+    <color name="white_30">#fff</color>
+    <color name="yellow">#ffff00</color>
+    <color name="red">#ff0000</color>
+</resources>
